@@ -269,6 +269,8 @@ const ColorSchemeProvider: FC<PropsWithChildren<unknown>> = ({ children }) => {
               />
             )}
             {overlay2 && (
+              // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+              // @ts-expect-error
               <animated.Circle
                 y={circleY}
                 x={circleX}
