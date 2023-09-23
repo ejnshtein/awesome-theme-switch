@@ -206,7 +206,7 @@ const ColorSchemeProvider: FC<PropsWithChildren<unknown>> = ({ children }) => {
 
   const transition = useSpringValue(0, {
     config: {
-      tension: 80
+      tension: 100
     }
   })
 
